@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    img {
+      width:100%;
+    }
+
+    .container {
+      max-width: 992px;
+      margin:auto;
+    }
+
+    .row {
+      width:100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: 30%;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg">
+        <h3>Indiana Jones and the Raiders of the Lost Ark</h3>
+        <p>
+          The first film is set in 1936. Indiana Jones (Harrison Ford) is hired by government agents to locate the Ark of the Covenant, the gold plated chest containing the stone tablets Moses used to inscribe the Ten Commandments before the Nazi Germans steal it for themselves.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg">
+        <h3>Indiana Jones and the Temple of Doom</h3>
+        <p>
+          The second film is a prequel set in 1935, a year before Raiders of the Lost Ark. Indiana escapes Chinese gangsters led by Lao Che with the help of singer/actress Willie Scott (Kate Capshaw) and his twelve-year-old sidekick Short Round
+          (Jonathan Ke Quan). The trio crash-land in India, where they come across a Punjabi village whose children have been
+          kidnapped.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.jpg" >
+        <h3>Indiana Jones and the Last Crusade</h3>
+        <p>
+          The third film is set in 1938. Indiana and his friend Marcus Brody (Denholm Elliott) are assigned by American
+          businessman Walter Donovan (Julian Glover) to find the Holy Grail. They are teamed up with Dr. Elsa Schneider (Alison Doody), following on from where Indiana's estranged father Henry (Sean Connery) left off before he disappeared.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
