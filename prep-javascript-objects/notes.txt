@@ -1,0 +1,8 @@
+Objects are very useful for modeling things in the real world by grouping values together in one place.
+
+
+
+
+What data types can object properties hold?
+
+Describe the syntax (structure) of object-literals in JavaScript.
