@@ -1,0 +1,62 @@
+1. What is the principal use of arrays?
+  An array is a special variable, which can hold more than one value
+
+  An array can hold many values under a single name, and you can access the values by referring to an index number.
+
+  **storing "list" type data**
+
+2. Describe the syntax (structure) of array-literals in JavaScript.
+
+  Using an array literal is the easiest way to create a JavaScript Array.
+
+    Syntax:
+    const array_name = [item1, item2, ...];
+
+3. What number represents the first index of an array?
+[0]
+
+4. How can you access the last element of an array?
+  //Example
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let fruit = fruits[fruits.length - 1];
+
+***NOTES***
+It has become a common practice to declare arrays using --const--
+
+  Arrays are Not Constants
+  The keyword const is a little misleading.
+
+  It does NOT define a constant array. It defines a constant reference to an array.
+
+  Because of this, we can still change the elements of a constant array.
+---
+The Difference Between Arrays and Objects
+Arrays use numbered indexes.
+Objects use named indexes.
+---
+PROPERTIES & METHODS
+
+cars.length   // Returns the number of elements
+cars.sort()   // Sorts the array
+
+Accessing the First Array Element
+//Example
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let fruit = fruits[0];
+
+Accessing the Last Array Element
+//Example
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let fruit = fruits[fruits.length - 1];
+
+Looping Array Elements
+One way to loop through an array, is using a for loop:
+//Example
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    let fLen = fruits.length;
+
+    let text = "<ul>";
+    for (let i = 0; i < fLen; i++) {
+      text += "<li>" + fruits[i] + "</li>";
+    }
+    text += "</ul>";
