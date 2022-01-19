@@ -1,0 +1,25 @@
+What does the = (equals) operator do in JavaScript?
+  Assignment Operator
+
+Which keyword is used to declare a variable in JavaScript?
+  Identifiers
+
+Which characters is a JavaScript variable allowed to begin with?
+  letters  can also begin with //underscores, $ // but typically only for professional programmers for specific purposes.
+
+What are quotation marks used for in JavaScript?
+  Defining a text-string
+
+What is the purpose of strings in JavaScript?
+  Storing and manipulating text
+
+What is the purpose of booleans in JavaScript?
+  Represent one of two values (true/false; yes/no; on/off)
+
+What is the purpose of numbers in JavaScript?
+  Primitive values
+  Number methods elp you work with numbers (i.e aritmetic)
+  Numbers are added; strings are concatenated
+
+What does null mean in JavaScript?
+  The value null represents the *intentional* absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.
