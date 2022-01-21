@@ -1,0 +1,52 @@
+[1]What does strictly equal mean?
+    The strict equality operator (===) checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+    If the operands are of different types, return false.
+    If both operands are objects, return true only if they refer to the same object.
+    If both operands are null or both operands are undefined, return true.
+    If either operand is NaN, return false.
+
+[2]What is the logical and operator?
+    &&
+    Example:
+    (x < 10 && y > 1) is true
+
+
+[3] Can you name some comparison operators?
+        COMPARISON OPERATORS
+        == Equal to
+        === Equal Value AND Equal type
+        != Not Equal
+        !== Not Equal OR Not Equal type
+        > Greater Than
+        < Less Than
+        >= Greater Than or Equal to
+        <= Less Than or Equal To
+
+        LOGICAL OPERATORS
+        && and
+        || or
+        ! Not
+
+
+
+
+////////////
+General Notes
+//////////
+**The if Statement
+Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
+
+  //  Syntax
+if (condition) {
+  //  block of code to be executed if the condition is true
+}
+
+**(The else Statement
+Use the else statement to specify a block of code to be executed if the condition is false.
+
+if (condition) {
+  //  block of code to be executed if the condition is true
+} else {
+  //  block of code to be executed if the condition is false
+}
