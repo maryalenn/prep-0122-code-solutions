@@ -1,0 +1,19 @@
+[1]  What does document.createElement() take as its argument?
+
+
+[2]  What does document.createElement() return?
+
+
+[3]  How do you append elements to the DOM?
+
+
+
+////NOTES///
+DOM = Document Object Model
+
+Syntax
+element = document.querySelector(selectors);
+
+querySelector - returns the first match it finds (will not return all matches)
+
+querySelectorAll - returns all matches
