@@ -1,0 +1,18 @@
+[1]  What arguments does the addEventListener method take?
+
+    1 - Type of event listeing for
+
+    2 - Callback function
+
+
+
+[2]  Give five examples of JavaScript events that can be listened for.
+      1- Focus - elements gaining or losing Focus
+
+      2- Form - events related to forms being constructed, reset, and submitted.
+
+      3- Mouse - mouse is clicked, double-clicked, up and down events, etc
+
+      4- Touch - interacting with touch screen like a finger or sytylus
+
+      5-Inputs
